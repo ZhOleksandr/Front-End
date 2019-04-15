@@ -1,0 +1,60 @@
+.container {
+	border: 1px solid black;
+	min-height: 200px;
+	background-color: lightgrey;
+}
+div {
+	margin: 5px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.cube {
+	min-height: 200px;
+	position: relative;
+	opacity: 1;
+}
+.cube:hover {
+	opacity: 0.8;
+	transition: opacity 0.4s linear;
+}
+
+.side-a {	
+	height: 100px;
+	width: 100px;
+	margin: 40px 0 40px 555px;
+	background-image: linear-gradient(red, green);
+	position: absolute;
+	opacity: 1;		
+}
+.side-a:hover {
+	opacity: 0.3;
+	transition: opacity 0.4s linear;
+}
+
+.side-b {	
+	height: 100px;
+	width: 100px;
+	margin: 59px 567px 40px 140px;
+	float: right;
+	background-image: linear-gradient(red, green);
+	transform: skewY(20deg);
+	opacity: 1;	
+}
+.side-b:hover {
+	opacity: 0.3;
+	transition: opacity 0.4s linear;
+}
+
+.side-c {	
+	height: 36px;
+	width: 100px;
+	margin: 142px 0 40px 605px;
+	background-image: linear-gradient(red, green);
+	transform: skewX(-110deg);
+	opacity: 1;	
+}
+.side-c:hover {
+	opacity: 0.3;
+	transition: opacity 0.4s linear;
+}
