@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<script type="text/javascript" src="script.js"></script>
+	<title>JS Your age?</title>
+	<link rel="stylesheet" type="text/css" href="style.css">	
 </head>
 <body>
+
 	<form  id="forma" onsubmit="return false">
-		<div>
-			<label>How old are you?</label>
-			<input type="text" id="_age"/>
-		</div>
+		<h1>Who are you?</h1>
+		<h2>Java Script</h2>
 
-		<hr>
-			<p>You are:</p>
-			<p id="_result"></p>
+		<ul>
+			<li></li>
+
+			<li>
+				<h3>Your gender?</h3>
+				<label for="_male">Male</label>
+				<input type="radio" id="_male" name="gender">
+				<label for="_female">Female</label>
+				<input type="radio" id="_female" name="gender">
+			</li>
 			
-	
-		<div>
-			<button onclick="check()">Submit</button>
-		</div>
-
+			
+			<li>
+				<h3>How old are you?</h3>
+				<input type="text" id="_age"/>
+				<button onclick="check()">Submit</button>
+			</li>
+			
+			<li>
+				<p>You are: <span id="_result"></span></p>			
+			</li>
+			
+			<li>
+				<p id="_outImg"></p>
+			</li>
+		</ul>
 	</form>
 	
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

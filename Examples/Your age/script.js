@@ -1,48 +1,55 @@
-//var ch = "child";
-//var teen = "teenager";
-//var adult = "adult";
-
 function check() {
-	var age, result;
+	var age, result, outImg;
 	age = document.getElementById("_age").value;
-	age = parseInt(age);
-	if (age <= 12) {
-		result = "child";
-	} else if(age >= 13 && age <= 17) {
-		result = "teenager";
-	} else if (age >= 18 ) {
-		result = "adult";
+	
+	
+	
+	if (age <= 12 && document.getElementById("_male").checked) {
+		result = "CHILD";
+		document.getElementById('_outImg').innerHTML = 
+		'<img src="images/child_boy.png" alt="placeholder+image" width="150px">';
+	} else if(age <= 12 && document.getElementById("_female").checked) {
+		result = "CHILD";
+		document.getElementById('_outImg').innerHTML = 
+		'<img src="images/child_girl.png" alt="placeholder+image" width="150px">';
+
+
+	} else if(age >= 13 && age <= 17 && document.getElementById("_male").checked) {
+		result = "TEENAGER";
+		document.getElementById('_outImg').innerHTML = 
+		'<img src="images/teenager_boy.png" alt="placeholder+image" width="150px">';
+	} else if(age >= 13 && age <= 17 && document.getElementById("_female").checked) {
+		result = "TEENAGER";
+		document.getElementById('_outImg').innerHTML = 
+		'<img src="images/teenager_girl.png" alt="placeholder+image" width="150px">';
+	
+
+	} else if (age >= 18 && age <= 64 && document.getElementById("_male").checked) {
+		result = "ADULT";
+		document.getElementById('_outImg').innerHTML = 
+		'<img src="images/adult_man.png" alt="placeholder+image" width="150px">';
+	}  else if (age >= 18 && age <= 64 && document.getElementById("_female").checked) {
+		result = "ADULT";
+		document.getElementById('_outImg').innerHTML = 
+		'<img src="images/adult_woman.png" alt="placeholder+image" width="150px">';
+	
+
+	} else if(age >= 65 && document.getElementById("_male").checked) {
+		result = "OLD";
+		document.getElementById('_outImg').innerHTML = 
+		'<img src="images/old_man.png" alt="placeholder+image" width="150px">';
+	} else if(age >= 65 && document.getElementById("_female").checked) {
+		result = "OLD";
+		document.getElementById('_outImg').innerHTML = 
+		'<img src="images/old_woman.png" alt="placeholder+image" width="150px">';
+	
+
 	} else {
-		result = "Error";
+		result = "ERROR";
+		document.getElementById('_outImg').innerHTML = 
+		'<img src="images/error.png" alt="placeholder+image" width="150px">';
 	}
 	
-	document.getElementById('_result').innerHTML = result;
+	document.getElementById('_result').innerHTML = result;	
+	
 }
-
-
-
-
-
-/*
-// Заміна елементу
-var child = document.createElement("p");
-var text = document.createTextNode(res);
-child.appendChild(text);
-var parent = document.getElementById("result");
-var children = document.getElementsByTagName("p");
-parent.replaceChild(child, children[1]);
-*/
-
-/*
-function check(n) {
-	if (n <= 12) {
-		return child;
-	} else if(n >= 13 && n <= 17) {
-		return teen;
-	} else if (n >= 18 ) {
-		return adult;
-	} else {
-		return "Error";
-	}
-} 
-*/

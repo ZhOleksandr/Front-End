@@ -1,0 +1,39 @@
+form {
+	max-width: 400px;	
+	margin: 0 auto;
+	background: #285d5a;
+	border-radius: 10px;
+}
+
+h1, h2, h3, li {
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+
+h3 {
+	margin-bottom: 5px;
+}
+
+ul {
+    list-style-type:none; 
+}
+li{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    margin-right: 10%;
+}
+
+p {
+	text-align: left;
+	font-size: 20px;
+	font-width: bold;
+	margin: 0;
+}
+input, button {
+	border-radius: 5px;
+}
+
+#_outImg {
+	text-align: center;
+}
