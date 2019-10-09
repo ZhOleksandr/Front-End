@@ -1,0 +1,78 @@
+#my-traffic-wrap {
+  background: linear-gradient(#a7d4fb, #fff);
+  z-index: 1;
+}
+
+.my-h {
+	text-align: center;	
+}
+
+#my-traffic-container {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.trafficlight {
+	width: 70px;
+	height: 200px;
+	background-color: #191919;
+	margin-top: 50px;		
+	border: 3px solid #504949;
+	border-radius: 20px;
+	box-shadow: 1px 1px 5px 1px #272121; 
+	z-index: 3;
+}
+
+.my-traffic-element {
+	width: 150px;
+	height: 200px;	
+	margin-top: 60px;	
+	position: absolute;
+	z-index: 2;	
+}
+
+.my-light {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;	
+	margin: 10px 7px;
+}
+
+.my-el {
+	width: 100px;
+	height: 50px;	
+	margin: 10px;
+	border-top: 50px solid #191919;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	width: 38px;
+}
+
+.my-red {
+	background-color: #2f0000;
+	background-image: radial-gradient(#c31818, transparent);
+	animation: 13s red infinite;
+}
+
+.my-yellow {
+	background-color: #211802;
+	background-image: radial-gradient(#d2d210, transparent);
+}
+.my-green {
+	background-color: #000400;
+	background-image: radial-gradient(#12bb12, transparent);
+}
+
+.btn-traffic {	
+	margin-top: 20px;
+	color: #f38829;
+	font-size: 34px;
+	cursor: pointer;		
+}
+
+.btn-traffic:hover {	
+	color: #c30f0f;			
+}
+
+

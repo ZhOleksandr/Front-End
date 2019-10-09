@@ -1,0 +1,94 @@
+
+#title {
+	text-align: center;
+}
+
+.my-header {
+	display: flex;	
+    flex-flow: column wrap;
+    align-content: center;
+}
+.my-wrap {	
+	display: flex;	
+	justify-content: center;	
+}
+
+.num-block {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	
+}
+
+.my-btn{
+	margin: 10px;
+	border-radius: 5px;
+	background-color: darkgray;
+	font-size: 14px;
+}
+
+.num {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid black;
+	background-color: #9e6d6d;
+	margin: 8px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	line-height: 50px;
+}
+
+.my-tag-p {
+	text-align: center;
+	margin-top: 0;
+}
+.my-result {
+	display: flex;
+	width: 400px;
+	height: 60px;
+}
+
+#sum {
+	margin: 5px 0px 5px 50px;
+	width: 300px;
+	height: 50px;	
+	border: 2px solid black;
+	background-color: #5d5db3;	
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	line-height: 50px;	
+}
+#my-reset {
+	margin: 5px 10px;
+	text-align: center;
+	line-height: 50px;
+	width: 80px;
+	height: 50px;
+	border: 1px solid black;
+	color: white;
+	font: bold;
+	font-size: 18px;
+	background: linear-gradient(#5d5db3, #263c8a, #5d5db3);
+	cursor: pointer;
+}
+
+.my-drop select{
+	margin: 10px 150px;
+	width: 100px;
+	height: 25px;
+	font-size: 14px;	
+	border-radius: 5px;
+}
+
+.dropdown-from {
+	display: flex;	
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#calculation, #num_systems {
+	cursor: pointer;
+}

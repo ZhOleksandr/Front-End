@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form valid</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="form-valid.css">
+</head>
+<body>
+	<!-- FORM VALID -->
+	<div class="my-form-wrap">		
+		<div class="form-wrap">
+			<form action="#" method="#" class="valid-form">
+				<h1 class="my-tag-h1">Registration Form</h1>
+				<div class="container">
+					<div class="field">
+						<label for="name" class="my-label">Your name:</label>
+						<input type="text" class="input-field" id="name"/>
+					</div>
+
+					<div class="field">
+						<label for="phone" class="my-label">Phone:</label>
+						<input type="text" class="input-field" id="phone" placeholder="+380(__)___-__-__"/>
+					</div>
+
+					<div class="field">
+						<label for="email" class="my-label">Email:</label>
+						<input type="text" class="input-field" id="email"/><span id="valid"></span>
+					</div>
+
+					<div class="field">
+						<label for="password" class="my-label">Password:</label>
+						<input type="text" class="input-field" id="password"/>
+					</div>
+				</div>
+
+				<div class="field-sex">
+					<label for="radio-male" class="my-label">Male</label>
+					<input type="radio" name="radio-male" id="radio-male" value="male" />
+				</div>
+				<div class="field-sex">
+					<label for="radio-female" class="my-label">Female</label>
+					<input type="radio" name="radio-female" id="radio-female" value="female" />
+				</div>
+			
+				<div class="field-add">
+					<label for="select-choice" class="my-label">Your level:</label>
+					<select name="select-choice" id="select-choice">
+						<option>select</option>
+						<option value="Junior">Junior</option>
+						<option value="Middle">Middle</option>
+						<option value="Senio">Senior</option>
+					</select>
+				</div>		
+				
+				<div class="field-add">
+					<label for="agree" class="my-label">I agree</label>
+					<input type="checkbox" name="agree" id="agree" />
+				</div>
+			
+				<div class="field-add">
+					<input type="submit" class="btn-submit" id="submit" value="Submit"/>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- /FORM VALID-->
+
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/form-valid.js"></script>
+</body>
+</html>

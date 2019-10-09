@@ -1,0 +1,100 @@
+#my-form-wrap {
+  margin: 0;
+  background: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.form-wrap {
+	background: linear-gradient(to top left, #3c583c, #b5a950, #3c583c);
+	margin-top: 10px;
+	border-radius: 10px;
+	max-width: 600px;
+	color: white;
+}
+
+.valid-form {
+	margin: 25px;
+}
+
+.field {
+	margin: 10px;	
+	clear: both;
+	text-align: right;
+	line-height:25px;	
+}
+
+.field-add, .field-sex {
+	margin: 10px;	
+}
+
+.field-sex {
+	display: inline-block;
+}
+
+.my-label {
+	float: left;
+	padding-right:10px;
+}
+
+.main {
+	float: left;
+}
+
+#name, #phone, #email, #password {
+	color: black;
+	font-size: 14px;
+	height: 25px;
+	box-shadow: 1px 1px 5px #ffe500;
+	border: none;
+	border-radius: 5px;
+}
+
+#radio-male, #radio-female, #agree {	
+	width: 17px;
+	height: 17px;
+}
+
+#select-choice, #submit {
+	height: 25px;
+	width: 100px;
+	box-shadow: 1px 1px 5px #ffe500;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background-color: #525252;
+	font-size: 20px;
+}
+
+#submit {
+	margin-left: 30%;
+	height: 35px;
+	width: 120px;
+}
+
+.my-tag-h1 {
+	color: #ffe500;
+	
+}
+
+.error {
+	background-color: salmon;
+}
+
+.ok {
+	background-color: lightgreen;
+}
+
+.error-name {
+	background-color: salmon;
+}
+
+.ok-name {
+	background-color: lightgreen;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number system</title>
+	<link rel="stylesheet" type="text/css" href="number-system.css">
+</head>
+<body>
+<div>
+	<h1>Numeral systems</h1>
+
+	<div class="header">			
+		<div class="drop dropdown-to">
+			<p id="numSys"></p>
+			<select id="calculation" name="calculation">
+				<option selected>system</option>
+				<option value="1">decimal</option>
+				<option value="2">binary</option>				
+				<option value="3">hexadecimal</option>
+			</select>
+		</div>
+		<div class="result">
+			<div id="sum"></div>
+			<div id="reset">Reset</div>
+		</div>
+	</div>
+
+	<div class="drop dropdown-from">
+		<select id="num_systems">
+			<option selected>system</option>
+			<option value="1">decimal</option>
+			<option value="2">binary</option>				
+			<option value="3">hexadecimal</option>
+		</select>
+	</div>
+
+	<div class="wrap">
+			<!-- в блоки просто передавати цифри а в залежності від того що набрано рахувати -->
+		<div class="num-block block-four">
+			<p>x 2<sup>3</sup></p>
+			<input class="num four" id="_four">
+			<button class="btn btn-four">next</button>		
+		</div>
+
+		<div class="num-block block-three">
+			<p>x 2<sup>2</sup></p>
+			<input class="num three" id="_three">
+			<button class="btn btn-three">next</button>		
+		</div>
+
+		<div class="num-block block-two">
+			<p>x 2<sup>1</sup></p>
+			<input class="num two" id="_two">
+			<button class="btn btn-two">next</button>		
+		</div>		
+
+		<div class="num-block block-one">
+			<p>x 2<sup>0</sup></p>
+			<input class="num one" id="_one">
+			<button class="btn btn-one">next</button>
+		</div>
+		
+	</div>
+<div>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/number-system.js"></script>
+</body>
+</html>

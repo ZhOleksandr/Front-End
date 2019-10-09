@@ -1,0 +1,59 @@
+#my-slide {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.my-slid {
+	margin: 10px auto;
+	width: 500px;
+	height: 300px;
+}
+
+.my-slide-img {
+	width: 100%;
+  	height: 100%;
+	display: none;
+}
+
+.act {
+	display: block;	
+}
+
+.my-slide-img:first-child{
+	background: url(../images/article/browser.jpg)no-repeat center/cover;
+}
+
+.my-slide-img:nth-child(2){
+	background: url(../images/article/front-end.jpg)no-repeat center/cover;
+}
+
+.my-slide-img:nth-child(3){
+	background: url(../images/article/net.jpg)no-repeat center/cover;
+}
+
+.my-slide-img:nth-child(4){
+	background: url(../images/article/web.jpg)no-repeat center/cover;
+}
+
+.my-slide-img:nth-child(5){
+	background: url(../images/article/programming.jpg)no-repeat center/cover;
+}
+
+.n {
+	color: #575757;
+}
+.my-tag-a-slide {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+.my-tag-a-slide:hover {
+	color: #0AB6DD;
+}
+.my-prev {
+
+}
+.my-next {
+
+}

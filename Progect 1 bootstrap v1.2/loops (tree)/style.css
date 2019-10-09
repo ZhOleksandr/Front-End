@@ -1,0 +1,50 @@
+#wrap-tree {
+	margin: 0 auto;
+	max-width: 700px;
+}
+#my-container-tree, #container-result {
+	display: flex;	
+	justify-content: space-between;
+	font-size: 20px;
+}
+
+.section {
+	width: 350px;
+	border: 2px solid #7df907;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+	background: linear-gradient(#395a1c, #458819);		
+}
+#_num1, #_symbol2, #_num2, #_space {
+	margin: 5px 5px;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+	line-height: 0;
+}
+
+#wrap-tree p {
+	margin: 5px;
+	color: yellow;
+}
+
+.my-btn-tree {
+	margin: 5px 5px;
+	padding: auto;
+	border-radius: 5px;
+	height: 30px;
+	width: 80px;
+	font-width: bold;
+	font-size: 14px;
+	color:  white;
+	background: #196b51;
+}
+
+.result {
+	min-height: 300px;
+}
+
+#out1, #out2, #out3, #out4 {
+	color: white;
+}
